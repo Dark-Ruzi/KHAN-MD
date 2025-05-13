@@ -17,15 +17,7 @@ cmd({
     const apiUrl = `https://api.github.com/repos/${repoName}`;
     const { data } = await axios.get(apiUrl);
 
-    let responseMsg = `📁 *GitHub Repository Info* 📁\n\n`;
-    responseMsg += `📌 *Name*: ${data.name}\n`;
-    responseMsg += `🔗 *URL*: ${data.html_url}\n`;
-    responseMsg += `📝 *Description*: ${data.description || "No description"}\n`;
-    responseMsg += `⭐ *Stars*: ${data.stargazers_count}\n`;
-    responseMsg += `🍴 *Forks*: ${data.forks_count}\n`;
-    responseMsg += `👤 *Owner*: ${data.owner.login}\n`;
-    responseMsg += `📅 *Created At*: ${new Date(data.created_at).toLocaleDateString()}\n`;
-    responseMsg += `\n> *© Powered by JawadTechX*`;
+    let responseMsg = `𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃`;
 
     await conn.sendMessage(from, { text: responseMsg }, { quoted: m });
   } catch (error) {
