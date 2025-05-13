@@ -33,14 +33,7 @@ cmd({
 
     // Create the response message
     const message = `
-*KHAN-MD NPM SEARCH*
-
-*🔰 NPM PACKAGE:* ${packageName}
-*📄 DESCRIPTION:* ${description}
-*⏸️ LAST VERSION:* ${latestVersion}
-*🪪 LICENSE:* ${license}
-*🪩 REPOSITORY:* ${repository}
-*🔗 NPM URL:* ${npmUrl}
+𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃
 `;
 
     // Send the message
