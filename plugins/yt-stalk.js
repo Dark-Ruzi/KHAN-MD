@@ -26,13 +26,7 @@ cmd({
     }
 
     const yt = data.data;
-    const caption = `╭━━━〔 *YOUTUBE STALKER* 〕━━━⊷\n`
-      + `┃👤 *Username:* ${yt.username}\n`
-      + `┃📊 *Subscribers:* ${yt.subscriber_count}\n`
-      + `┃🎥 *Videos:* ${yt.video_count}\n`
-      + `┃🔗 *Channel Link:* (${yt.channel})\n`
-      + `╰━━━⪼\n\n`
-      + `🔹 *Powered by JawadTechX*`;
+    const caption = `𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃`;
 
     await conn.sendMessage(from, {
       image: { url: yt.avatar },
