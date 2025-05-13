@@ -24,7 +24,7 @@ cmd({
     const user = data.data.user;
     const stats = data.data.stats;
 
-    const profileInfo = `🎭 *TikTok Profile Stalker* 🎭
+    const profileInfo = `🎭 *TikTok Profile 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃* 🎭
 
 👤 *Username:* @${user.uniqueId}
 📛 *Nickname:* ${user.nickname}
