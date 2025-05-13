@@ -35,7 +35,7 @@ cmd({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> Powered By JawadTechX 🤍",
+            caption: "> Powered By 𝐅𝚫𝚰𝐒𝚫𝐋-𝚳𝐃 🤍",
             mimetype: 'image/png'
         }, { quoted: message });
 
